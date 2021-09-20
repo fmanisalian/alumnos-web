@@ -5,7 +5,7 @@ const app = express();
 const mongoose = require('mongoose');
 
 mongoose.set('useFindAndModify', false);
-mongoose.connect('mongodb://localhost/webalumnos-db', {
+mongoose.connect('mongodb://localhost/alumnos-db', {
   useCreateIndex: true,
   useNewUrlParser: true
 })
